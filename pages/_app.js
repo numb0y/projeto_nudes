@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
-import "../css/styles.css"
+import styles from "../css/styles.css";
+
+import logonud from "../images/logonud.png"
+import logoprin from"../images/logoprin.png"
+import city from "../images/city.png"
+import pc from "../images/computador.png"
+import db from "../images/db.png"
 
 const fundo = new URL("../images/fundo.png",import.meta.url)
-const logoprin = new URL("../images/logoprin.png",import.meta.url)
-const logo = new URL("../images/logonud.png",import.meta.url)
+
 const contato = new URL("../images/contato.png",import.meta.url)
 const footerback = new URL("../images/footerback.png",import.meta.url)
-const city = new URL("../images/city.png",import.meta.url)
-const pc = new URL("../images/computador.png",import.meta.url)
-const db = new URL("../images/db.png",import.meta.url)
+
 
 
 function App(){
@@ -18,7 +22,12 @@ function App(){
 
   <header>
 
-    <img src={logoprin} className='logoprin'/>
+    <div className='logoprin'>
+      <Image 
+      src={logoprin}
+      layout="fixed"
+      />
+    </div>
 
           <a href="https://www.youtube.com/" className="nucleo">O NÚCLEO</a>
           <a href="https://www.youtube.com/" className="noticias">NOTICIAS</a>
@@ -40,7 +49,13 @@ function App(){
       
       </div>
 
-      <img src={logo} className='logo'/>
+      <div className='logo'>
+      <Image 
+      src={logonud}
+      width={250}
+      height={250}
+      />
+      </div>
 
   </section>
 
@@ -49,18 +64,36 @@ function App(){
     <h1 className='ldp'>Linhas de Pesquisa</h1>
 
     <div className='rectan1'>
-        <img src={city} className='city'/>
+        <div className='city'>
+        <Image 
+        src={city}
+        width={162.5}
+        height={80}
+        />
+        </div>
         <h1 className='cityh1'>Temas de convergência:<br></br>
         Cidades inteligentes</h1>
     </div>
 
     <div className='rectan2'>
-        <img src={pc} className='pc'/>
+        <div className='pc'>
+          <Image 
+          src={pc}
+          width={117.58}
+          height={92}
+          />
+        </div>
         <h1 className='pch1'>Qualidade e <br></br>produtividade de <br></br>software</h1>
     </div>
 
     <div className='rectan3'>
-        <img src={db} className='db'/>
+      <div className='db'>
+            <Image 
+            src={db}
+            width={75}
+            height={84}
+            />
+          </div>
         <h1 className='dbh1'>Bancos de Dados, Big Data <br></br>e análise de dados</h1>
     </div>
 

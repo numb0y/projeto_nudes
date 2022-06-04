@@ -4,15 +4,15 @@
 
 
 * {
-margin: 0;
-padding: 0;
-}
+    margin: 0;
+    padding: 0;
+    }
 
 header{
     position: absolute;
     width: 1560px;
     height: 62px;
-    padding: 0.90rem;
+    padding: 1,25rem;
     top: 0;
     left: 0;
 
@@ -29,7 +29,7 @@ background-image: url("../images/fundo.png");
 background-size: 100%;
 width: 1560px;
 height: 676px;
-padding: 0.90rem;
+padding: 1.25rem;
 }
 
 
@@ -39,14 +39,14 @@ background-color: #EBEBEB;
 background-size: 100%;
 width: 1560px;
 height: 1185px;
-padding: 0.90rem;
+padding: 1.25rem;
 }
 
 .ldp {
     position: absolute;
     width: 407px;
     height: 50px;
-    left: 576px;
+    left: 616px;
     top: 790px;
     
     font-family: 'Lexend';
@@ -64,8 +64,9 @@ padding: 0.90rem;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 308px;
+left: 348px;
 top: 960px;
+
         
 background: #FFFFFF;
 border-radius: 20px;
@@ -77,7 +78,7 @@ border-radius: 20px;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 654px;
+left: 694px;
 top: 961px;
     
 background: #FFFFFF;
@@ -88,7 +89,7 @@ border-radius: 20px;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 999.5px;
+left: 1039.5px;
 top: 960px;
     
 background: #FFFFFF;
@@ -99,7 +100,7 @@ border-radius: 20px;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 308px;
+left: 348px;
 top: 1283px;
 
 background: #FFFFFF;
@@ -110,7 +111,7 @@ border-radius: 20px;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 653px;
+left: 693px;
 top: 1283px;
 
 background: #FFFFFF;
@@ -121,7 +122,7 @@ border-radius: 20px;
 position: absolute;
 width: 253px;
 height: 245px;
-left: 998px;
+left: 1038px;
 top: 1283px;
 
 background: #FFFFFF;
@@ -132,7 +133,7 @@ border-radius: 20px;
 position: absolute;
 width: 292px;
 height: 390px;
-left: 296px;
+left: 336px;
 top: 2100px;
     
 background: #EBEBEB;
@@ -143,7 +144,7 @@ border-radius: 20px;
 position: absolute;
 width: 292px;
 height: 390px;
-left: 634px;
+left: 674px;
 top: 2100px;
         
 background: #EBEBEB;
@@ -154,7 +155,7 @@ border-radius: 20px;
 position: absolute;
 width: 292px;
 height: 390px;
-left: 972px;
+left: 1012px;
 top: 2100px;
             
 background: #EBEBEB;
@@ -163,8 +164,8 @@ border-radius: 20px;
 
 .logoprin {
 position: absolute;
-width: 121px;
-height: 40px;
+width: auto;
+height: auto;
 left: 43px;
 top: 23px;
 }
@@ -174,7 +175,7 @@ background-image: url("../images/contato.png");
 position: absolute;
 width: 140px;
 height: 35px;
-left: 1388px;
+left: 1428px;
 top: 25px;
 padding: 0px;
 font-size: 24px;
@@ -192,19 +193,19 @@ transition-duration: 0.2s;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.logo {
-position: absolute;
-width: 250px;
-height: 250px;
-left: 1088px;
-top: 206.5px;
+.logo{
+    position: absolute;
+    left: 1128px;
+    top: 206.5px;
+    width: auto;
+    height: auto;
 }
 
 .nucleo {
 position: absolute;
 width: 54px;
 height: 17px;
-left: 873px;
+left: 913px;
 top: 31px;
     
 text-decoration: none;
@@ -220,7 +221,7 @@ color: #FFFFFF;
 position: absolute;
 width: 51px;
 height: 17px;
-left: 954px;
+left: 994px;
 top: 31px;
     
 text-decoration: none;
@@ -236,7 +237,7 @@ color: #FFFFFF;
 position: absolute;
 width: 88px;
 height: 17px;
-left: 1033px;
+left: 1073px;
 top: 31px;
         
 text-decoration: none;
@@ -252,7 +253,7 @@ color: #FFFFFF;
 position: absolute;
 width: 115px;
 height: 17px;
-left: 1149px;
+left: 1189px;
 top: 31px;
         
 text-decoration: none;
@@ -268,7 +269,7 @@ color: #FFFFFF;
 position: absolute;
 width: 52px;
 height: 17px;
-left: 1292px;
+left: 1332px;
 top: 31px;
         
 text-decoration: none;
@@ -285,7 +286,7 @@ color: #FFFFFF;
 position: absolute;
 width: 666px;
 height: 214px;
-left: 265px;
+left: 305px;
 top: 235px;
             
 font-family: 'Khand', sans-serif;
@@ -322,10 +323,11 @@ background-image: url("../images/footerback.png");
 position: absolute;
 width: 1560px;
 height: 1075px;
+padding: 1.25rem;
 left: 0px;
 top: 2736px;
 background-size: 100%;
-padding: 0.90rem;
+
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
