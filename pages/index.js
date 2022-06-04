@@ -10,7 +10,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-          <img src='./fundo.png'/>
       </div>
       </div>
   )

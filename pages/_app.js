@@ -9,12 +9,6 @@ import city from "../images/city.png"
 import pc from "../images/computador.png"
 import db from "../images/db.png"
 
-const fundo = new URL("../images/fundo.png",import.meta.url)
-
-const contato = new URL("../images/contato.png",import.meta.url)
-const footerback = new URL("../images/footerback.png",import.meta.url)
-
-
 
 function App(){
 
@@ -25,6 +19,7 @@ function App(){
     <div className='logoprin'>
       <Image 
       src={logoprin}
+      alt="Logo Nudes"
       layout="fixed"
       />
     </div>
@@ -51,6 +46,7 @@ function App(){
 
       <div className='logo'>
       <Image 
+      alt="Símbolo Nudes"
       src={logonud}
       width={250}
       height={250}
@@ -65,7 +61,8 @@ function App(){
 
     <div className='rectan1'>
         <div className='city'>
-        <Image 
+        <Image
+        alt='Cidades Tecnológicas' 
         src={city}
         width={162.5}
         height={80}
@@ -77,7 +74,8 @@ function App(){
 
     <div className='rectan2'>
         <div className='pc'>
-          <Image 
+          <Image
+          alt='Aparelhos' 
           src={pc}
           width={117.58}
           height={92}
@@ -88,7 +86,8 @@ function App(){
 
     <div className='rectan3'>
       <div className='db'>
-            <Image 
+            <Image
+            alt='Banco de Dados' 
             src={db}
             width={75}
             height={84}
