@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
-
-
-* {
-    margin: 0;
-    padding: 0;
-    }
-
-header{
+.header {
     position: absolute;
     width: 1560px;
     height: 62px;
@@ -24,7 +14,7 @@ width: 400px;
 
 }
 
-.main-container {
+.maincont {
 background-image: url("../images/fundo.png");
 background-size: 100%;
 width: 1560px;
@@ -34,7 +24,7 @@ padding: 1.25rem;
 
 
 
-.mid-container {
+.midcont {
 background-color: #EBEBEB;
 background-size: 100%;
 width: 1560px;
@@ -43,21 +33,21 @@ padding: 1.25rem;
 }
 
 .ldp {
-    position: absolute;
-    width: 407px;
-    height: 50px;
-    left: 616px;
-    top: 790px;
+position: absolute;
+width: 407px;
+height: 50px;
+left: 616px;
+top: 790px;
     
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 50px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
     
-    /* identical to box height */
+/* identical to box height */
     
-    color: #15421C;
+color: #15421C;
 }
 
 .rectan1 {
@@ -140,6 +130,24 @@ background: #EBEBEB;
 border-radius: 20px;
 }
 
+.seci {
+padding-left: 21px;
+padding-top: 25px;
+}
+
+.not1h1 {
+padding-left: 30px;
+padding-top: 10px;
+
+font-family: 'Lexend', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #15421C;
+}
+
 .not2{
 position: absolute;
 width: 292px;
@@ -149,6 +157,37 @@ top: 2100px;
         
 background: #EBEBEB;
 border-radius: 20px;
+}
+
+.not2h1{
+padding-left: 30px;
+padding-top: 10px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #15421C;
+}
+
+.leiamais {
+background-image: url("../images/leiamais.png");
+position: absolute;
+margin-top: 85px;
+margin-left: 35px;
+padding-left: 110px;
+padding-top: 35px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+border-radius: 50px;
+transition-duration: 0.2s;
 }
 
 .not3{
@@ -162,10 +201,34 @@ background: #EBEBEB;
 border-radius: 20px;
 }
 
-.logoprin {
+.gamedu{
+padding: 1rem;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+
+color: #15421C;
+}
+
+.h1game {
+padding-left: 20px;
+
+font-family: 'Anaheim';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+
+color: #000000;
+}
+
+.logopri {
 position: absolute;
-width: auto;
-height: auto;
+width: 108;
+height: 76;
 left: 43px;
 top: 23px;
 }
@@ -292,7 +355,7 @@ top: 235px;
 font-family: 'Khand', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 35px;
+font-size: 25px;
 line-height: 76px;
             
 color: #FFFFFF;
@@ -322,7 +385,21 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 background-image: url("../images/footerback.png");
 position: absolute;
 width: 1560px;
-height: 1075px;
+height: 790px;
+padding: 1.25rem;
+left: 0px;
+top: 2736px;
+background-size: 100%;
+
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footercontato {
+background-image: url("../images/footerback.png");
+position: absolute;
+width: 1560px;
+height: 790px;
 padding: 1.25rem;
 left: 0px;
 top: 2736px;
@@ -385,3 +462,60 @@ text-align: center;
 
 color: #000000;
 }
+
+.conex{
+padding-left: 75px;
+padding-top: 25px;
+}
+    
+.conexh1 {
+padding-left: 0px;
+padding-top: 30px;
+    
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+    
+color: #000000;
+}
+
+.controle{
+padding-left: 70px;
+padding-top: 35px;
+}
+    
+.controleh1 {
+padding-left: 30px;
+padding-top: 30px;
+    
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+    
+color: #000000;
+}
+
+.pcchar{
+padding-left: 90px;
+padding-top: 25px;
+}
+        
+.pccharh1 {
+padding-left: 30px;
+padding-top: 30px;
+        
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+        
+color: #000000;
+}
+        
+    
