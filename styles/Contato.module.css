@@ -1,113 +1,51 @@
 .header {
-position: absolute;
-width: 1600px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1600px;
 height: 62px;
-padding: 1,25rem;
-top: 0;
-left: 0;
 
 background-color: #15421C;
 }
 
 .logopri {
-position: absolute;
-width: 121px;
-height: 40px;
-left: 43px;
-top: 4px;
-
-
+    padding: 40px !important;
+    width: 100%;
+    max-width: 121px;
+}
+.ulheader {
+    display: flex;
 }
 
-.nucleo {
-position: absolute;
-width: 53px;
-height: 17px;
-left: 913px;
-top: 18px;
-    
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
+.ulcontato {
+    padding-left: 30px;
 }
-    
-.noticias {
-position: absolute;
-width: 51px;
-height: 17px;
-left: 994px;
-top: 18px;
-    
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
+
+.nav {
+padding: 40px;
 }
-    
-.pesquisadores {
-position: absolute;
-width: 88px;
-height: 17px;
-left: 1073px;
-top: 18px;
-        
+
+.nucleo{
+padding: 15px;
+
 text-decoration: none;
 font-family: 'Khand', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-color: #FFFFFF;
-}
-    
-.linhaspes {
-position: absolute;
-width: 115px;
-height: 17px;
-left: 1189px;
-top: 18px;
-        
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-}
-    
-.projetos {
-position: absolute;
-width: 52px;
-height: 17px;
-left: 1332px;
-top: 18px;
-        
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+background: none;
         
 color: #FFFFFF;
 }
 
 .contato {
 background-image: url("../images/contato.png");
-position: absolute;
 width: 140px;
+max-width: 140px;
 height: 35px;
-left: 1428px;
-top: 12px;
-padding: 0px;
+padding-bottom: 17px;
 font-size: 24px;
 cursor: pointer;
 text-align: center;
@@ -119,29 +57,6 @@ border-radius: 50px;
 transition-duration: 0.2s;
 }
 
-.nucleo:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-    
-.noticias:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-    
-.pesquisadores:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-    
-.linhaspes:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-    
-.projetos:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.contato:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
 
 .contate {
 position: absolute;
@@ -160,10 +75,16 @@ letter-spacing: 0.01em;
 color: #15421C;
 }
 
+.maincont {
+    width: 100%;
+    max-width: 1920px;
+}
+
 .mainimage {
 position: absolute;
-width: auto;
+width: 100%;
 height: auto;
+max-width: 465px;
 left: 223px;
 top: 240px;
 }
@@ -172,7 +93,8 @@ top: 240px;
 box-sizing: border-box;
 
 position: absolute;
-width: 385px;
+width: 100%;
+max-width: 385px;
 height: 455px;
 left: 1019px;
 top: 129px;
@@ -181,4 +103,8 @@ background: #4B6B50;
 opacity: 0.25;
 border: 1px solid #000000;
 border-radius: 20px;
+}
+
+.nucleo:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
