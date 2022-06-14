@@ -39,7 +39,7 @@ export default function Contato() {
             <button type="submit" className={styles.contato}></button>
         </form>
     </ul>
-        </ul>
+    </ul>
     </nav>
 
   </header>
