@@ -2,6 +2,17 @@
 .nav{
     display: none;
 }
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: px;
+height: 62px;
+
+background-color: #15421C;
+}
 }
 
 .header {
