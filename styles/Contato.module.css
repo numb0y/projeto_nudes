@@ -23,10 +23,12 @@ background-color: #15421C;
 
 .ulcontato {
     padding-left: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .nav {
-padding: 40px;
+    padding-right: 2%;
 }
 
 .nucleo{
@@ -126,3 +128,7 @@ border-radius: 20px;
 .nucleo:hover::before {
     transition: 2s;
   }
+
+.contato:hover {
+    border: 1px solid #000000;
+}
