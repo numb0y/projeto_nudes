@@ -47,6 +47,7 @@ export default function Home() {
       <main className={styles.main}>
     <main className={styles.maincont}>
 
+    <div className={styles.textandlogo}>
       <div className={styles.textop}>
 
       <h1>NÚCLEO DE DESENVOLVIMENTO DE SOFTWARE DO IFRN</h1>
@@ -60,6 +61,8 @@ export default function Home() {
       width={250}
       height={250}
       />
+      </div>
+
       </div>
 
   </main>

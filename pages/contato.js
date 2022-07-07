@@ -44,8 +44,11 @@ export default function Contato() {
 
   </header>
     <main className={styles.main}>
+    <h1 className={styles.contate}>Contate-nos</h1>
         <main className={styles.maincont}>
-            <h1 className={styles.contate}>Contate-nos</h1>
+          
+        <div className={styles.maincomps}>
+
         <div className={styles.mainimage}>
             <Image 
             alt="Contato"
@@ -58,7 +61,11 @@ export default function Contato() {
       <form className={styles.mainbox}>
           
       </form>
+
+      </div>
+
         </main>
+
     </main>
 
     </div>
