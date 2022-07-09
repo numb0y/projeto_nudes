@@ -74,9 +74,11 @@ font-family: 'Khand', sans-serif;
 
 .maincont {
     background-image: url("../images/fundo.png");
+    background-color: #15421C;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
+    overflow: hidden;
+    max-height: 1080px;
 }
 
 .textop {
@@ -236,6 +238,7 @@ color: #000000;
 
 .footer {
     background-image: url("../images/footerback.png");
+    background-color: #15421C;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 800px;
