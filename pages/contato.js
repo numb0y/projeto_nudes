@@ -43,7 +43,7 @@ export default function Contato() {
     </nav>
 
   </header>
-    <main className={styles.main}>
+
     <h1 className={styles.contate}>Contate-nos</h1>
         <main className={styles.maincont}>
           
@@ -65,8 +65,6 @@ export default function Contato() {
       </div>
 
         </main>
-
-    </main>
 
     </div>
   )

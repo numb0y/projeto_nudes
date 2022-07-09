@@ -21,31 +21,37 @@ export default function Home() {
         <meta name="description" content="Página home" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
- <header className={styles.header}>
+      <header className={styles.header}>
 
-    <div className={styles.logopri}>
-            <Image
-            alt='Logo Nudes' 
-            src={logoprin}
-            width={121}
-            height={40}
-            />
-    </div>
+<div className={styles.logopri}>
+        <Image
+        alt='Logo Nudes' 
+        src={logoprin}
+        width={121}
+        height={40}
+        />
+</div>
 
-          <a href="https://www.youtube.com/" className={styles.nucleo}>O NÚCLEO</a>
-          <a href="https://www.youtube.com/" className={styles.noticias}>NOTICIAS</a>
-          <a href="https://www.youtube.com/" className={styles.pesquisadores}>PESQUISADORES</a>
-          <a href="https://www.youtube.com/" className={styles.linhaspes}>LINHAS DE PESQUISA</a>
-          <a href="https://www.youtube.com/" className={styles.projetos}>PROJETOS</a>
+<nav className={styles.nav}>
+<ul className={styles.ulheader}>
+      <a href="https://www.youtube.com/" className={styles.nucleo}>O NÚCLEO</a>
+      <a href="https://www.youtube.com/" className={styles.nucleo}>NOTICIAS</a>
+      <a href="https://www.youtube.com/" className={styles.nucleo}>PESQUISADORES</a>
+      <a href="https://www.youtube.com/" className={styles.nucleo}>LINHAS DE PESQUISA</a>
+      <a href="https://www.youtube.com/" className={styles.nucleo}>PROJETOS</a>
 
-          <form action="./contato/">
-            <button type="submit" className={styles.contato}></button>
-        </form>
+<ul className={styles.ulcontato}>
+<form action="./contato">
+        <button type="submit" className={styles.contato}></button>
+    </form>
+</ul>
+</ul>
+</nav>
 
-  </header>
+</header>
 
       <main className={styles.main}>
-    <main className={styles.maincont}>
+              <main className={styles.maincont}>
 
     <div className={styles.textandlogo}>
       <div className={styles.textop}>
@@ -67,12 +73,16 @@ export default function Home() {
 
   </main>
 
-  <section className={styles.midcont}>
+
+    <section className={styles.midcont}>
 
     <h1 className={styles.ldp}>Linhas de Pesquisa</h1>
 
-    <div className={styles.rectan1}>
-        <div className={styles.city}>
+
+    <section className={styles.flex}>
+
+    <div className={styles.rectan}>
+        <div className={styles.figure}>
         <Image
         alt='Cidades Tecnológicas' 
         src={city}
@@ -80,12 +90,12 @@ export default function Home() {
         height={80}
         />
         </div>
-        <h1 className={styles.cityh1}>Temas de convergência:<br></br>
+        <h1 className={styles.figdesc}>Temas de convergência:<br></br>
         Cidades inteligentes</h1>
     </div>
 
-    <div className={styles.rectan2}>
-        <div className={styles.pc}>
+    <div className={styles.rectan}>
+        <div className={styles.figure}>
           <Image
           alt='Aparelhos' 
           src={pc}
@@ -93,11 +103,11 @@ export default function Home() {
           height={92}
           />
         </div>
-        <h1 className={styles.pch1}>Qualidade e <br></br>produtividade de <br></br>software</h1>
+        <h1 className={styles.figdesc}>Qualidade e <br></br>produtividade de <br></br>software</h1>
     </div>
 
-    <div className={styles.rectan3}>
-      <div className={styles.db}>
+    <div className={styles.rectan}>
+      <div className={styles.figure}>
             <Image
             alt='Banco de Dados' 
             src={db}
@@ -105,11 +115,11 @@ export default function Home() {
             height={84}
             />
           </div>
-        <h1 className={styles.dbh1}>Bancos de Dados, Big Data <br></br>e análise de dados</h1>
+        <h1 className={styles.figdesc}>Bancos de Dados, Big Data <br></br>e análise de dados</h1>
     </div>
 
-    <div className={styles.rectan4}>
-          <div className={styles.conex}>
+    <div className={styles.rectan}>
+          <div className={styles.figure}>
             <Image
             alt='Conexões' 
             src={conex}
@@ -117,11 +127,11 @@ export default function Home() {
             height={85}
             />
           </div>
-          <h1 className={styles.conexh1}>Sistemas Embarcados e<br></br>Móveis</h1>
+          <h1 className={styles.figdesc}>Sistemas Embarcados e<br></br>Móveis</h1>
     </div>
 
-    <div className={styles.rectan5}>
-          <div className={styles.controle}>
+    <div className={styles.rectan}>
+          <div className={styles.figure}>
             <Image
             alt='Controle' 
             src={controle}
@@ -129,11 +139,11 @@ export default function Home() {
             height={76}
             />
           </div>
-          <h1 className={styles.conexh1}>Desenvolvimento de<br></br>Jogos Digitais</h1>
+          <h1 className={styles.figdesc}>Desenvolvimento de<br></br>Jogos Digitais</h1>
     </div>
 
-    <div className={styles.rectan6}>
-          <div className={styles.pcchar}>
+    <div className={styles.rectan}>
+          <div className={styles.figure}>
             <Image
             alt='Usuário' 
             src={pcchar}
@@ -141,56 +151,60 @@ export default function Home() {
             height={89}
             />
           </div>
-          <h1 className={styles.conexh1}>Engenharia de Serviços</h1>
+          <h1 className={styles.figdesc}>Engenharia de Serviços</h1>
     </div>
+    </section>
 
   </section>
+
+
 
   <section className={styles.mid2cont}>
 
-    <div className={styles.not1}>
-      <div className={styles.seci}>
-        <Image
-        alt='Secitex'
-        src={secitex}
-        width={250}
-        height={181.88}
-        />
-      </div>
-      <h1 className={styles.not2h1}>PROJETOS</h1>
+<section className={styles.flex2}>
+<div className={styles.rec2}>
+  <div className={styles.seci}>
+    <Image
+    alt='Secitex'
+    src={secitex}
+    width={250}
+    height={181.88}
+    />
+  </div>
+  <h1 className={styles.rec2h1}>PROJETOS</h1>
 
-      <form action="https://youtube.com/">
-            <button type="submit" className={styles.leiamais}></button>
-        </form>
-    </div>
+  <form action="https://youtube.com/">
+        <button type="submit" className={styles.leiamais}></button>
+    </form>
+</div>
 
-    <div className={styles.not2}>
-      <div className={styles.seci}>
-        <Image
-        alt='Secitex'
-        src={secitex}
-        width={250}
-        height={181.88}
-        />
-      </div>
-      <h1 className={styles.not1h1}>EVENTOS</h1>
+<div className={styles.rec2}>
+  <div className={styles.seci}>
+    <Image
+    alt='Secitex'
+    src={secitex}
+    width={250}
+    height={181.88}
+    />
+  </div>
+  <h1 className={styles.rec2h1}>EVENTOS</h1>
 
-      <form action="https://youtube.com/">
-            <button type="submit" className={styles.leiamais}></button>
-        </form>
-    </div>
+  <form action="https://youtube.com/">
+        <button type="submit" className={styles.leiamais}></button>
+    </form>
+</div>
 
-    <div className={styles.not3}>
-      <h1 className={styles.gamedu}>GAMEDU</h1>
-      <h1 className={styles.h1game}>Workshop de <br></br>desenvolvimento de <br></br>jogos</h1>
-      <form action="https://youtube.com/">
-            <button type="submit" className={styles.leiamais}></button>
-        </form>
-    </div>
+<div className={styles.rec2}>
+  <h1 className={styles.rec2h1}>GAMEDU</h1>
+  <h1 className={styles.rec2desc}>Workshop de <br></br>desenvolvimento de <br></br>jogos</h1>
+  <form action="https://youtube.com/">
+        <button type="submit" className={styles.leiamais}></button>
+    </form>
+</div>
+</section>
 
-  </section>
+</section>
       </main>
-
       <footer className={styles.footer}>
 
       </footer>

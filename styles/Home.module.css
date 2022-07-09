@@ -1,350 +1,82 @@
 .header {
-    position: absolute;
-    width: 1560px;
-    height: 62px;
-    padding: 1,25rem;
-    top: 0;
-    left: 0;
-
-    background-color: #15421C;
-}
-
-.fundo {
-width: 400px;
-
-}
-
-.maincont {
-background-image: url("../images/fundo.png");
-background-size: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
 width: 100%;
-height: 720px;
-min-height: 720px;
-min-width: 800px;
+max-width: auto;
+height: 62px;
 
-}
-
-.textandlogo {
-    display: flex;
-    justify-content: space-between;
-    padding: 200px;
-}
-
-
-
-.midcont {
-background-color: #EBEBEB;
-background-size: 100%;
-width: 1560px;
-height: 1185px;
-padding: 1.25rem;
-}
-
-.ldp {
-position: absolute;
-width: 407px;
-height: 50px;
-left: 616px;
-top: 790px;
-    
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 50px;
-    
-/* identical to box height */
-    
-color: #15421C;
-}
-
-.rectan1 {
-position: absolute;
-width: 253px;
-height: 245px;
-left: 348px;
-top: 960px;
-
-        
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-
-
-.rectan2{
-position: absolute;
-width: 253px;
-height: 245px;
-left: 694px;
-top: 961px;
-    
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-.rectan3{
-position: absolute;
-width: 253px;
-height: 245px;
-left: 1039.5px;
-top: 960px;
-    
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-.rectan4 {
-position: absolute;
-width: 253px;
-height: 245px;
-left: 348px;
-top: 1283px;
-
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-.rectan5 {
-position: absolute;
-width: 253px;
-height: 245px;
-left: 693px;
-top: 1283px;
-
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-.rectan6 {
-position: absolute;
-width: 253px;
-height: 245px;
-left: 1038px;
-top: 1283px;
-
-background: #FFFFFF;
-border-radius: 20px;
-}
-
-.not1{
-position: absolute;
-width: 292px;
-height: 390px;
-left: 336px;
-top: 2100px;
-    
-background: #EBEBEB;
-border-radius: 20px;
-}
-
-.seci {
-padding-left: 21px;
-padding-top: 25px;
-}
-
-.not1h1 {
-padding-left: 30px;
-padding-top: 10px;
-
-font-family: 'Lexend', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 30px;
-
-color: #15421C;
-}
-
-.not2{
-position: absolute;
-width: 292px;
-height: 390px;
-left: 674px;
-top: 2100px;
-        
-background: #EBEBEB;
-border-radius: 20px;
-}
-
-.not2h1{
-padding-left: 30px;
-padding-top: 10px;
-
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 30px;
-
-color: #15421C;
-}
-
-.leiamais {
-background-image: url("../images/leiamais.png");
-position: absolute;
-margin-top: 85px;
-margin-left: 35px;
-padding-left: 110px;
-padding-top: 35px;
-font-size: 24px;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-outline: none;
-color: #fff;
-border: none;
-border-radius: 50px;
-transition-duration: 0.2s;
-}
-
-.not3{
-position: absolute;
-width: 292px;
-height: 390px;
-left: 1012px;
-top: 2100px;
-            
-background: #EBEBEB;
-border-radius: 20px;
-}
-
-.gamedu{
-padding: 1rem;
-
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 31px;
-
-color: #15421C;
-}
-
-.h1game {
-padding-left: 20px;
-
-font-family: 'Anaheim';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 32px;
-
-color: #000000;
+background-color: #15421C;
 }
 
 .logopri {
-position: absolute;
-width: 108;
-height: 76;
-left: 43px;
-top: 23px;
+    padding: 40px !important;
+    width: 100%;
+    max-width: 121px;
+    min-width: 121px;
+}
+.ulheader {
+    display: flex;
+    align-items: center;
+}
+
+.ulcontato {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    padding-right: 2%;
+}
+
+.nucleo{
+padding: 15px;
+
+text-decoration: none;
+font-family: 'Khand', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+background: none;
+white-space: nowrap;
+        
+color: #FFFFFF;
+}
+
+.nucleo:hover {
+    color: #b2c9b7;
+    transition: 0,8s;
 }
 
 .contato {
 background-image: url("../images/contato.png");
-position: absolute;
 width: 140px;
+max-width: 140px;
 height: 35px;
-font-size: 24px;
+font-size: 15px;
+color:#000000;
 cursor: pointer;
 text-align: center;
 text-decoration: none;
 outline: none;
-color: #fff;
+background-color: #fff;
 border: none;
 border-radius: 50px;
 transition-duration: 0.2s;
+font-family: 'Khand', sans-serif;
 }
-    
+
 .contato:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #000000;
 }
 
-.logo{
-    width: auto;
-    height: auto;
-}
-
-.nucleo {
-position: absolute;
-width: 54px;
-height: 17px;
-left: 913px;
-top: 31px;
-    
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-}
-    
-.noticias {
-position: absolute;
-width: 51px;
-height: 17px;
-left: 994px;
-top: 31px;
-    
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-}
-    
-.pesquisadores {
-position: absolute;
-width: 88px;
-height: 17px;
-left: 1073px;
-top: 31px;
-        
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-}
-    
-.linhaspes {
-position: absolute;
-width: 115px;
-height: 17px;
-left: 1189px;
-top: 31px;
-        
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-}
-    
-.projetos {
-position: absolute;
-width: 52px;
-height: 17px;
-left: 1332px;
-top: 31px;
-        
-text-decoration: none;
-font-family: 'Khand', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-        
-color: #FFFFFF;
+.maincont {
+    background-image: url("../images/fundo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
 }
 
 .textop {
@@ -361,160 +93,150 @@ line-height: 76px;
             
 color: #FFFFFF;
 }
-    
-.nucleo:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.logo{
+    min-width: 250px;
+    width: auto;
+    height: auto;
 }
-    
-.noticias:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+.textandlogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
 }
-    
-.pesquisadores:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.midcont {
+    background-color: #EBEBEB;
+    background-size: 100%;
+    width: 100%;
+    height: 985px;
+    }
+
+.mid2cont {
+    background-color: #FFFFFF;
+    background-size: 100%;
+    width: 100%;
+    height: 735px;
+    }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
 }
-    
-.linhaspes:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.flex > div {
+    flex: 1 1 253px;
+    margin: 40px;
 }
+
+.ldp {
+
+text-align: center;
+padding: 80px;
+height: 50px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
     
-.projetos:hover {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+color: #15421C;
+}
+
+.rectan{
+width: 253px;
+min-width: 253px;
+max-width: 253px;
+height: 245px;
+
+        
+background: #FFFFFF;
+border-radius: 20px;
+
+}
+
+.figure {
+text-align: center;
+margin-top: 30px;
+}
+
+.figdesc {
+text-align: center;
+margin-top: 30px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+}
+
+.rec2 {
+width: 292px;
+max-width: 292px;
+height: 390px;
+    
+background: #EBEBEB;
+border-radius: 20px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.flex2 > div {
+    flex: 1 1 292px;
+    margin: 20px;
+    margin-top: 150px;
+}
+
+.seci{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rec2h1 {
+margin-left: 30px;
+margin-top: 10px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+
+color: #15421C;
+}
+
+.rec2desc {
+margin-left: 30px;
+margin-top: 10px;
+
+font-family: 'Anaheim';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+
+color: #000000;
 }
 
 .footer {
-background-image: url("../images/footerback.png");
-position: absolute;
-width: 1560px;
-height: 790px;
-padding: 1.25rem;
-left: 0px;
-top: 2736px;
-background-size: 100%;
-
-
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.footercontato {
-background-image: url("../images/footerback.png");
-position: absolute;
-width: 1560px;
-height: 790px;
-padding: 1.25rem;
-left: 0px;
-top: 2736px;
-background-size: 100%;
-
-
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.city{
-padding-left: 45px;
-padding-top: 15px;
-}
-
-.cityh1 {
-padding-left: 30px;
-padding-top: 30px;
-
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-
-color: #000000;
-}
-
-.pc{
-padding-left: 75px;
-padding-top: 20px;
-}
-
-.pch1{
-padding-top: 20px;
-
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
-}
-
-.db{
-padding-left: 86px;
-padding-top: 20px;
-}
-    
-.dbh1{
-padding-top: 20px;
-    
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
-}
-
-.conex{
-padding-left: 75px;
-padding-top: 25px;
-}
-    
-.conexh1 {
-padding-left: 0px;
-padding-top: 30px;
-    
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-    
-color: #000000;
-}
-
-.controle{
-padding-left: 70px;
-padding-top: 35px;
-}
-    
-.controleh1 {
-padding-left: 30px;
-padding-top: 30px;
-    
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-    
-color: #000000;
-}
-
-.pcchar{
-padding-left: 90px;
-padding-top: 25px;
-}
-        
-.pccharh1 {
-padding-left: 30px;
-padding-top: 30px;
-        
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-        
-color: #000000;
+    background-image: url("../images/footerback.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
 }
