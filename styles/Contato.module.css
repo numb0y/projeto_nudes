@@ -129,3 +129,22 @@ border-radius: 20px;
 .contato:hover {
     border: 1px solid #FFFFFF;
 }
+
+@media (max-width: 1000px)
+{
+    .ulheader{
+        display: none;
+    }
+
+    .maincomps {
+        margin-bottom: 10%;
+        margin-inline: 26%;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: auto;
+    
+    }
+}

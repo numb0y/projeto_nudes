@@ -32,6 +32,15 @@ export default function Home() {
         />
 </div>
 
+<div className={styles.logoprimob}>
+        <Image
+        alt='Logo Nudes' 
+        src={logoprin}
+        width={60.5}
+        height={20}
+        />
+</div>
+
 <nav className={styles.nav}>
 <ul className={styles.ulheader}>
       <a href="https://www.youtube.com/" className={styles.nucleo}>O NÚCLEO</a>
@@ -53,10 +62,16 @@ export default function Home() {
       <main className={styles.main}>
               <main className={styles.maincont}>
 
+      <div className={styles.textomob}>
+
+      <h1>NÚCLEO DE DESENVOLVIMENTO DE <br></br>SOFTWARE DO IFRN</h1>
+      
+      </div>
+
     <div className={styles.textandlogo}>
       <div className={styles.textop}>
 
-      <h1>NÚCLEO DE DESENVOLVIMENTO DE SOFTWARE DO IFRN</h1>
+      <h1>NÚCLEO DE DESENVOLVIMENTO DE <br></br>SOFTWARE DO IFRN</h1>
       
       </div>
 
@@ -66,6 +81,15 @@ export default function Home() {
       src={logonud}
       width={250}
       height={250}
+      />
+      </div>
+
+      <div className={styles.logomob}>
+      <Image 
+      alt="Símbolo Nudes"
+      src={logonud}
+      width={125}
+      height={125}
       />
       </div>
 
@@ -82,6 +106,7 @@ export default function Home() {
     <section className={styles.flex}>
 
     <div className={styles.rectan}>
+      
         <div className={styles.figure}>
         <Image
         alt='Cidades Tecnológicas' 
@@ -90,11 +115,22 @@ export default function Home() {
         height={80}
         />
         </div>
+
+        <div className={styles.figmob}>
+        <Image
+        alt='Cidades Tecnológicas' 
+        src={city}
+        width={81.25}
+        height={40}
+        />
+        </div>
+
         <h1 className={styles.figdesc}>Temas de convergência:<br></br>
         Cidades inteligentes</h1>
     </div>
 
     <div className={styles.rectan}>
+
         <div className={styles.figure}>
           <Image
           alt='Aparelhos' 
@@ -103,10 +139,22 @@ export default function Home() {
           height={92}
           />
         </div>
+
+        <div className={styles.figmob}>
+          <Image
+          alt='Aparelhos' 
+          src={pc}
+          width={58.79}
+          height={46}
+          />
+        </div>
+
         <h1 className={styles.figdesc}>Qualidade e <br></br>produtividade de <br></br>software</h1>
+
     </div>
 
     <div className={styles.rectan}>
+
       <div className={styles.figure}>
             <Image
             alt='Banco de Dados' 
@@ -115,10 +163,22 @@ export default function Home() {
             height={84}
             />
           </div>
+
+          <div className={styles.figmob}>
+            <Image
+            alt='Banco de Dados' 
+            src={db}
+            width={37.5}
+            height={42}
+            />
+          </div>
+
         <h1 className={styles.figdesc}>Bancos de Dados, Big Data <br></br>e análise de dados</h1>
+
     </div>
 
     <div className={styles.rectan}>
+
           <div className={styles.figure}>
             <Image
             alt='Conexões' 
@@ -127,10 +187,22 @@ export default function Home() {
             height={85}
             />
           </div>
+
+          <div className={styles.figmob}>
+            <Image
+            alt='Conexões' 
+            src={conex}
+            width={54.5}
+            height={42.5}
+            />
+          </div>
+
           <h1 className={styles.figdesc}>Sistemas Embarcados e<br></br>Móveis</h1>
+
     </div>
 
     <div className={styles.rectan}>
+
           <div className={styles.figure}>
             <Image
             alt='Controle' 
@@ -139,10 +211,22 @@ export default function Home() {
             height={76}
             />
           </div>
+          
+          <div className={styles.figmob}>
+            <Image
+            alt='Controle' 
+            src={controle}
+            width={54}
+            height={38}
+            />
+          </div>
+
           <h1 className={styles.figdesc}>Desenvolvimento de<br></br>Jogos Digitais</h1>
+
     </div>
 
     <div className={styles.rectan}>
+
           <div className={styles.figure}>
             <Image
             alt='Usuário' 
@@ -151,7 +235,18 @@ export default function Home() {
             height={89}
             />
           </div>
+
+          <div className={styles.figmob}>
+            <Image
+            alt='Usuário' 
+            src={pcchar}
+            width={48}
+            height={44.5}
+            />
+          </div>
+
           <h1 className={styles.figdesc}>Engenharia de Serviços</h1>
+
     </div>
     </section>
 
@@ -162,7 +257,9 @@ export default function Home() {
   <section className={styles.mid2cont}>
 
 <section className={styles.flex2}>
+
 <div className={styles.rec2}>
+
   <div className={styles.seci}>
     <Image
     alt='Secitex'
@@ -171,6 +268,16 @@ export default function Home() {
     height={181.88}
     />
   </div>
+
+  <div className={styles.secimob}>
+    <Image
+    alt='Secitex'
+    src={secitex}
+    width={125}
+    height={90.94}
+    />
+  </div>
+  
   <h1 className={styles.rec2h1}>PROJETOS</h1>
 
   <form action="https://youtube.com/">
@@ -179,6 +286,7 @@ export default function Home() {
 </div>
 
 <div className={styles.rec2}>
+
   <div className={styles.seci}>
     <Image
     alt='Secitex'
@@ -187,6 +295,16 @@ export default function Home() {
     height={181.88}
     />
   </div>
+
+  <div className={styles.secimob}>
+    <Image
+    alt='Secitex'
+    src={secitex}
+    width={125}
+    height={90.94}
+    />
+  </div>
+
   <h1 className={styles.rec2h1}>EVENTOS</h1>
 
   <form action="https://youtube.com/">
