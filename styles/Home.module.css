@@ -305,6 +305,7 @@ color: #000000;
         display: none;
     }
     .textomob{
+        display: block;
         padding-top: 10%;
         text-align: center;
         width: auto;
@@ -326,6 +327,10 @@ color: #000000;
        display: block;
         width: auto;
         height: auto;
+    }
+
+    .midcont{
+        height: fit-content;   
     }
 
     .ldp {
@@ -379,7 +384,7 @@ color: #000000;
     }
 
     .mid2cont {
-        height: 835px;
+        height: fit-content;
         }
 
     .rec2 {
@@ -441,6 +446,33 @@ color: #000000;
             color: #000000;
             }
 
-        
+            .footer{
+             height: 600px;
+            }
 
+}
+@media (max-width: 850px)
+{
+    .footer{
+        height: 500px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .footer{
+        height: 300px;
+    }
+}
+
+@media (max-width: 412px)
+{
+    .midcont{
+        height: fit-content;
+    }
+
+    .footer
+    {
+        height: 250px;
+    }
 }

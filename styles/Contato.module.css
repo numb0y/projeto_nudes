@@ -137,14 +137,16 @@ border-radius: 20px;
     }
 
     .maincomps {
-        margin-bottom: 10%;
-        margin-inline: 26%;
-        padding: 50px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
         max-width: auto;
     
+    }
+
+    .maincomps > div {
+        flex: 1 1 500px;
+        margin: 150px;
     }
 }
